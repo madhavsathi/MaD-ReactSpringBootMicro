@@ -1,0 +1,9 @@
+/target
+/node_modules
+/.idea
+/.vscode
+/dist
+.env
+ui/node_modules
+**/.DS_Store
+/.metadata/
