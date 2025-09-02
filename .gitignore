@@ -1,9 +1,35 @@
-/target
-/node_modules
-/.idea
-/.vscode
-/dist
+# Java/Maven
+target/
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Node.js/Vite
+node_modules/
+dist/
+build/
+
+# Docker
+**/.docker/
+.dockerignore
+
+# IDEs
+*.class
+*.swp
+*.swo
+*.DS_Store
+.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+
+# OS/System
+Thumbs.db
+.DS_Store
+
+# Environment Files
 .env
-ui/node_modules
-**/.DS_Store
-/.metadata/
+*.env
